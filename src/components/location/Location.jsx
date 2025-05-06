@@ -5,6 +5,8 @@ const Location = ({locationData}) => {
 
   const {name, background, link} = locationData;
 
+  console.log("locationData",locationData)
+
   return (
     <div className="location_main">
       <div className="location_content">
