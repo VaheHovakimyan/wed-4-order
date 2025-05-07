@@ -2,22 +2,15 @@ import "./TimeLine.scss";
 import React from "react";
 
 const Divider = () => {
-  return (
-    <div className="divider"></div>
-  )
-}
+  return <div className="divider"></div>;
+};
 
 const TimeLine = () => {
   return (
     <div className="timeline_main">
       <div className="timeline_main_opacity">
-        <h2 className="timeline_title">Timeline</h2>
+        <h2 className="timeline_title">Ժամանակացույց</h2>
         <div className="time_items_div">
-        
-        
-
-          <Divider />
-
           <div className="time_item">
             <p className="time_item_number">14:30 PM</p>
             <p className="time_item_location">Եկեղեցի</p>

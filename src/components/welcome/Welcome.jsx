@@ -7,24 +7,17 @@ const Welcome = () => {
       <div className='welcome_main_opacity'>
       <div className="welcome_main_border_div">
         <div className="welcome_content">
-          <p className="please_text">
-            PLEASE JOIN US TO
-            <br />
-            CELEBRATE THE UNION OF
+
+          <div className='names'>
+          <p className="people_name" style={{marginBottom: '100px'}}>
+            Վրեժ 
           </p>
-          <p className="people_name">
-            Վրեժ
-            <br />
-            Ասատրյան
-          </p>
-          <p className="and_text">and</p>
           <p className="people_name">
             Սյուզի
-            <br />
-            Նազարյան
           </p>
+          </div>
           <div className="timer_block">
-            <p className="timer_block_title">Left for wedding day</p>
+            <p className="timer_block_title">Հարսանիքին մնաց․․․</p>
             <p className="timer_block_coutndown">
               <Countdown date={new Date('Junest 01, 2025 18:30:00').getTime()} />
             </p>

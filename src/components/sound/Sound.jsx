@@ -5,7 +5,7 @@ import PauseCircleOutlineIcon from "@mui/icons-material/PauseCircleOutline";
 import "./Sound.scss";
 
 const sound = new Howl({
-  src: ["/wedding-music.mp3"],
+  src: ["/wedding-invitation-music.mp3"],
   volume: 1.0,
   loop: false,
 });
