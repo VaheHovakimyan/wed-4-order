@@ -1,5 +1,5 @@
 import church_image from '../images/location/church_image.JPG';
-import restaurant_icon from '../images/location/nor_dvin.jpg';
+import restaurant_icon from '../images/location/restaurent1.png';
 
 export const locationData = {
   church: {
@@ -10,6 +10,6 @@ export const locationData = {
   restaurant: {
     name: 'Աղբյուրակ ռեստորան',
     background: restaurant_icon,
-    link: 'https://g.co/kgs/UW5iUhs'
+    link: 'https://yandex.com/maps/org/172326370399/?ll=44.759818%2C40.502104&z=15'
   }
 }

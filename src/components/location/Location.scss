@@ -4,7 +4,6 @@
   align-items: center;
   width: 100%;
   padding: 48px 0;
-  background-image: url('../../images/location_background.png');
   border: 12px;
 
   .location_content {
@@ -39,6 +38,7 @@
       .location_img {
         width: 100%;
         max-width: 550px;
+        max-height: 300px;
         border-radius: 20px;
       }
     }

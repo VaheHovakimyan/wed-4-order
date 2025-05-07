@@ -21,8 +21,10 @@ function App() {
     <div className="main_wrapper">
       <Welcome />
       <TimeLine />
-      <Location locationData={locationData.church} />
-      <Location locationData={locationData.restaurant} />
+      <div className="location_main_background">
+        <Location locationData={locationData.church} />
+        <Location locationData={locationData.restaurant} />
+      </div>
       <ContactOwnerForm />
       <Footer />
       <CallTo />
