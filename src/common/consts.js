@@ -8,7 +8,7 @@ export const locationData = {
     link: 'https://maps.app.goo.gl/Mbm651UMKvKFMxQFA'
   },
   restaurant: {
-    name: 'Աղբյուրակ ռեստորան',
+    name: 'PALAIS by Aghbyurak',
     background: restaurant_icon,
     link: 'https://yandex.com/maps/org/172326370399/?ll=44.759818%2C40.502104&z=15'
   }
