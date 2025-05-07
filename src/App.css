@@ -4,6 +4,7 @@
   margin: 0 auto;
 }
 .location_main_background{
+  background-image: url('./images/contact/hraviratoms-contact-background.png');
   background-size: cover;
 }
 
