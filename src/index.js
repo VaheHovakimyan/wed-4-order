@@ -6,6 +6,7 @@ import reportWebVitals from "./reportWebVitals";
 import { Toaster } from "react-hot-toast";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Admin from "./components/admin/Admin";
+import './assets/fonts/fonts.css';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
