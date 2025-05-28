@@ -1,4 +1,4 @@
-import timeline_background from "../../images/timeline.jpg";
+import timeline_background from "../../timeline.jpg";
 import "./TimeLine.scss";
 import React from "react";
 
