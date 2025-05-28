@@ -13,7 +13,6 @@ import Sound from "./components/sound/Sound";
 
 
 function App() {
-
   useEffect(() => {
    getGuests();
   }, []);

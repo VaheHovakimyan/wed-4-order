@@ -1,5 +1,5 @@
 export const sendInviteRequest = async (values) => {
-  await fetch(`https://hraviratoms-server.onrender.com/api/wed-4-order/create`, {
+  await fetch(`${process.env.REACT_APP_WED_4_ORDER_API_PROD}/api/wed-4-order/create`, {
     method: "POST",
     body: JSON.stringify(values),
     headers: {
@@ -9,5 +9,5 @@ export const sendInviteRequest = async (values) => {
 }
 
 export const getGuests = async () => {
- return await fetch(`https://hraviratoms-server.onrender.com/api/wed-4-order/guests`);
+ return await fetch(`${process.env.REACT_APP_WED_4_ORDER_API_PROD}/api/wed-4-order/guests`);
 }
