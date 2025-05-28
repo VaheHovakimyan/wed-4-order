@@ -1,4 +1,4 @@
-import welcome_background from "../../images/main_background.jpg";
+import welcome_background from "../../main_background.jpg";
 import './Welcome.scss';
 import Countdown from "react-countdown";
 
