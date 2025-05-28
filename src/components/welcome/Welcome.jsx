@@ -10,10 +10,10 @@ const Welcome = () => {
 
           <div className='names'>
           <p className="people_name" style={{marginBottom: '100px'}}>
-            Վրեժ 
+             Ալինա
           </p>
           <p className="people_name">
-            Սյուզի
+            Դավիթ
           </p>
           </div>
           <div className="timer_block">

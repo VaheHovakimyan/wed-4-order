@@ -1,5 +1,5 @@
 import church_image from '../images/location/church_image.JPG';
-import restaurant_icon from '../images/location/restaurent1.png';
+import restaurant_icon from '../images/location/restaurant_image.webp';
 
 export const locationData = {
   church: {
@@ -8,8 +8,8 @@ export const locationData = {
     link: 'https://maps.app.goo.gl/Mbm651UMKvKFMxQFA'
   },
   restaurant: {
-    name: 'PALAIS by Aghbyurak',
+    name: 'PALERMO HALL',
     background: restaurant_icon,
-    link: 'https://yandex.com/maps/org/172326370399/?ll=44.759818%2C40.502104&z=15'
+    link: 'https://maps.app.goo.gl/KYf5fuxpoNngPdJE6'
   }
 }

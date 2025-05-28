@@ -3,7 +3,10 @@
   min-height: 500px;
   background-size: cover;
   background-position: 85%;
-  background-image: url("../../images/timeline.JPG");
+  background-image: url("../../images/timeline.jpg");
+    box-shadow:
+    0 -150px 150px -150px white, /* Top shadow */
+    0 150px 150px -150px white;  /* Bottom shadow */
 
   .timeline_main_opacity {
     display: flex;

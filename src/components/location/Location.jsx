@@ -3,7 +3,6 @@ import "./Location.scss";
 const Location = ({ locationData }) => {
   const { name, background, link } = locationData;
 
-
   return (
     <div className="location_main">
       <div className="location_content">
