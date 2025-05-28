@@ -1,3 +1,4 @@
+import timeline_background from "../../images/timeline.jpg";
 import "./TimeLine.scss";
 import React from "react";
 
@@ -7,7 +8,10 @@ const Divider = () => {
 
 const TimeLine = () => {
   return (
-    <div className="timeline_main">
+    <div
+      className="timeline_main"
+      style={{ backgroundImage: `url(${timeline_background})` }}
+    >
       <div className="timeline_main_opacity">
         <h2 className="timeline_title">Ժամանակացույց</h2>
         <div className="time_items_div">
