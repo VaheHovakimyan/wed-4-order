@@ -1,9 +1,10 @@
+import welcome_background from "../../images/main_background.jpg";
 import './Welcome.scss';
 import Countdown from "react-countdown";
 
 const Welcome = () => {
   return (
-    <div className="welcome_main">
+    <div className="welcome_main"  style={{ backgroundImage: `url(${welcome_background})` }}>
       <div className='welcome_main_opacity'>
       <div className="welcome_main_border_div">
         <div className="welcome_content">
