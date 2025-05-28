@@ -3,10 +3,8 @@
   min-height: 500px;
   background-size: cover;
   background-position: 85%;
-  background-image: url("../../images/timeline.jpg");
-    box-shadow:
-    0 -150px 150px -150px white, /* Top shadow */
-    0 150px 150px -150px white;  /* Bottom shadow */
+  background-image: url("../../images/main_background.jpg");
+  box-shadow: 0 -150px 150px -150px white, 0 150px 150px -150px white;
 
   .timeline_main_opacity {
     display: flex;
@@ -27,7 +25,7 @@
       color: white;
       font-weight: 300;
       font-size: 28px;
-      font-family: 'Josefin Slab', sans-serif;
+      font-family: "Josefin Slab", sans-serif;
       position: absolute;
       top: 20%;
       left: 50%;
@@ -58,12 +56,12 @@
 
         .time_item_number {
           font-size: 18px;
-          font-family: 'Josefin Slab', sans-serif;
+          font-family: "Josefin Slab", sans-serif;
         }
 
         .time_item_location {
           font-size: 18px;
-          font-family: 'Arial', sans-serif;
+          font-family: "Arial", sans-serif;
           font-weight: 200;
         }
       }
@@ -96,6 +94,5 @@
         }
       }
     }
-
   }
 }
